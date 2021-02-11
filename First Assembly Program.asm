@@ -295,10 +295,10 @@ runAgain:
 				  	# Read the first integer
   	addi	$v0, $0, 5			# system call 5 is for reading an integer
   	syscall 				# integer value read is in $v0
-  	add	$11, $0, $v0			# copy the first integer into $8
+  	add	$11, $0, $v0			# copy the user input into $11
   
 
-	bgtz $11, Loop
+	bgtz $11, Loop			# if ($11 > 0) loop the program. If ($11 = 0) end the program
 	j exit
 	
   			 

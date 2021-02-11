@@ -1,1 +1,1 @@
-# Assembly-Language
+This Repo is basically an oversight of my learnings using ASM or MIPS. These are class assignments that I had to do, and also extra projects I did on my own time for fun to leanr more about ASM and what I could be doing more efficiently!
